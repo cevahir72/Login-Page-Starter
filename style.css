@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right top,rgb(0,0,255),rgb(238,130,238));
+    min-height: 100vh;
+    
+}
+
+
+#container{
+    width: 60vh;
+    height: 80vh;
+    margin: auto;
+    background-color: white;
+    margin-top: 10vh;
+    padding: 8vh;
+    
+    
+}
+
+img{
+    width: 25px;
+    height: 25px;
+    padding-right: 5px;
+}
+
+.head{
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.face-google{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    
+}
+
+.face {
+    display: flex;
+    box-shadow: rgba(85,85,85,0.35) 0px 5px 15px;
+    
+    
+    
+}.google{    
+    display: flex;    
+    box-shadow: rgba(85,85,85,0.35) 0px 5px 15px;
+    
+}
+
+.top1{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid silver;
+    background-color: rgb(22, 111, 229);
+    color: white;
+    cursor: pointer;
+      
+}
+
+.top2{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid silver;
+    cursor: pointer;
+      
+}
+
+.username{
+    margin-bottom: 15px;
+}
+
+.password{
+    margin-bottom: 15px;
+}
+
+#username{
+    width: 100%;
+    min-height: 2rem;
+    border: 1px solid silver;
+}
+
+#password{
+    width: 100%;
+    min-height: 2rem;
+    border: 1px solid silver;
+}
+
+#alt{
+    width: 100%;
+    min-height: 2rem;
+    background-color: black;
+    color: white;
+    font-size: 10px bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-style: none;
+}
+
+span{
+    opacity: 0.5;
+    
+}
+
+#footer{
+    color:black;
+    text-align: center;
+}
